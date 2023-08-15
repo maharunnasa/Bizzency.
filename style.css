@@ -1,0 +1,119 @@
+.header {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    background-color: #0f2f44;
+    height: 50px;
+    width: 100%;
+    color: #ffff;
+}
+
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    height: 95px;
+    text-decoration: none;
+/*    position: relative;*/
+}
+.navbar ul{
+    position: relative;
+}
+.navbar ul li{
+    line-height: 95px;
+    
+}
+.navbar ul li a {
+    margin-left: 35px;
+    text-align: justify;
+    float: right;
+    font-weight: bold;
+}
+.navbar .nav-item .active{
+   height: 95px;
+    background-color: aquamarine;
+/*
+    position: absolute;
+    bottom: 0;
+*/
+}
+.home{
+    background-color: #e0edff;
+    height: 600px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.homeimage{
+    float: right;
+    margin-top: 63px; 
+    margin-right: 80px;
+}
+.hometext{
+    padding-top: 80px;
+}
+#round{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+.btn{
+    height: 50px;
+    width: 165px;
+    color: #fff;
+    background-color: #8484bf;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.video{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: #8484bf;
+    background-color: #fff;
+    margin-left: 20px;
+}
+#about{
+    height: 600px;
+    
+}
+.aboutimage{
+    margin-top: 100px;
+    float: right;
+}
+
+#skill{
+    height: 690px;
+}
+.skillimage{
+    margin-top: 100px;
+}
+#service{
+    background-color: #f5f5f5;
+    height: 425px;
+    width: 100%;
+}
+#protfolio{
+    height: 830px;
+}
+.testimonial{
+    height: 450px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+#blog{
+    background-color: #fafbfb;
+    height: 900px;
+    width: 100%;
+}
+
+.end{
+    background-color: #f5f5f5;
+    height: 400px;
+    
+}
+
+.footer{
+    background-color: #f9f9f9;
+    height: 55px;
+    text-align: center;
+}
